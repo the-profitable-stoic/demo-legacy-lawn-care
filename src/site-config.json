@@ -1,0 +1,488 @@
+{
+  "business": {
+    "name": "Legacy Lawn Care",
+    "phone": "555-law-r94",
+    "category": "lawn-care",
+    "city": "Raleigh",
+    "state": "NC"
+  },
+  "design": {
+    "preset": {
+      "id": "lawn-care-heritage-craft",
+      "categoryGroup": "lawn-care",
+      "name": "Heritage Craft",
+      "recipeFile": "lawn-care/heritage-craft.astro",
+      "colors": {
+        "primary": "#5A8A3C",
+        "primaryDark": "#365324",
+        "primaryLight": "#c5d6bb",
+        "secondary": "#4d7533",
+        "accent": "#5A8A3C",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#4d7533",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "lawn-care/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Expert Lawn Care in Raleigh",
+      "heroSubline": "Locally-owned lawn care tailored to Piedmont clay soils. Serving Durham to Apex since 2012 with science-backed turf management.",
+      "aboutTitle": "Rooted in Raleigh Soil",
+      "aboutText": [
+        "Founded by NC State turfgrass graduates, Legacy Lawn Care understands how red clay and humidity challenge Triangle lawns. We've perfected techniques for this unique environment.",
+        "Our approach combines soil testing with seasonal adjustments - heavier aeration before summer heat, targeted pre-emergents before spring weeds erupt in our climate.",
+        "We sponsor Raleigh Little League fields and donate services to Dix Park gardens because thriving greenspaces build community."
+      ],
+      "valueProps": [
+        {
+          "title": "Clay Soil Specialists",
+          "description": "Our deep-tine aeration techniques combat compaction in Raleigh's dense red clay."
+        },
+        {
+          "title": "Climate-Adapted Schedules",
+          "description": "Programs adjust for humid summers and unpredictable winter storms."
+        },
+        {
+          "title": "Neighborhood Knowledge",
+          "description": "We know which grasses thrive in Five Points' shaded lots versus Brier Creek's sunbaked lawns."
+        },
+        {
+          "title": "Tech-Enabled Precision",
+          "description": "Soil sensors and growth tracking optimize water and nutrient delivery."
+        }
+      ],
+      "ctaHeadline": "Let's Diagnose Your Lawn",
+      "ctaSubline": "Free same-week evaluation with custom plan. Evening/weekend slots available."
+    },
+    "services": [
+      {
+        "slug": "clay-soil-lawn-rehabilitation",
+        "name": "Clay Soil Lawn Rehabilitation",
+        "shortDescription": "Transform stubborn red clay into healthy growing medium.",
+        "description": "Piedmont clay wreaks havoc on Raleigh lawns - it compacts into concrete-like density by summer yet turns swampy during spring rains. Our 4-phase rehabilitation combines deep-tine aeration (penetrating 8+ inches), organic amendments to improve drainage, and specialized overseeding with drought-resistant fescue blends.\n\nWe test pH levels seasonally since clay locks up nutrients. Fall services focus on breaking up hardened summer soil, while spring treatments prevent waterlogging before heavy rains. For new construction sites around North Hills where builders scrape away topsoil, we implement complete soil rebuilding protocols.",
+        "process": [
+          "Step 1: Core sample analysis to identify compaction layers",
+          "Step 2: Deep-tine aeration with our standing weight machine",
+          "Step 3: Application of gypsum and compost tea amendments",
+          "Step 4: Overseeding with clay-adapted grass varieties"
+        ],
+        "benefits": [
+          "Eliminate standing water after storms",
+          "Reduce irrigation needs by 30-40%",
+          "Prevent thatch buildup from struggling grass",
+          "Restore nutrient availability in dense soil"
+        ],
+        "faq": [
+          {
+            "question": "Why does my Raleigh lawn turn brown by July?",
+            "answer": "Clay prevents roots from reaching deeper moisture. Our aeration creates vertical channels so grasses survive summer heat without daily watering."
+          },
+          {
+            "question": "How often should clay soils be treated?",
+            "answer": "Twice annually - fall aeration relieves summer compaction, spring treatments prepare for wet seasons. New lawns need 3-4 treatments the first year."
+          }
+        ]
+      },
+      {
+        "slug": "shade-tolerant-turf-installation",
+        "name": "Shade-Tolerant Turf Installation",
+        "shortDescription": "Lush grass solutions for Raleigh's tree-lined neighborhoods.",
+        "description": "Inside the Beltline's mature oaks and downtown Raleigh's urban canopy create challenging shade conditions where standard turf fails. We install specialized fine fescue blends that thrive with just 3-4 hours of filtered light, plus microclover to naturally fix nitrogen in low-sun areas.\n\nProjects begin with canopy analysis - we map sunlight patterns across your property through the seasons. For heavily shaded lots near NC State where grass won't grow, we offer premium artificial turf installations that look completely natural but never need mowing. All installations include our proprietary soil prep system to prevent washouts during hurricane season downpours.",
+        "process": [
+          "Step 1: Sunlight tracking over 48 hours",
+          "Step 2: Custom grass/clover seed blend formulation",
+          "Step 3: Subsurface drainage system installation",
+          "Step 4: Precision seeding with erosion control blankets"
+        ],
+        "benefits": [
+          "Greenery under dense tree cover",
+          "50% less watering than sun lawns",
+          "No more muddy dog runs",
+          "Eliminate moss/weed invasions"
+        ],
+        "faq": [
+          {
+            "question": "Will grass grow under my magnolia trees?",
+            "answer": "Magnolias are especially challenging due to dense shade and acidic leaf drop. We use extra lime amendments and a special creeping red fescue blend that tolerates these conditions."
+          },
+          {
+            "question": "What about downtown rooftop gardens?",
+            "answer": "We engineer lightweight soil mixes for patio containers and green roofs that mimic woodland floor conditions."
+          }
+        ]
+      },
+      {
+        "slug": "storm-repair-services",
+        "name": "Storm Repair Services",
+        "shortDescription": "Emergency lawn recovery after Triangle thunderstorms.",
+        "description": "Raleigh's violent spring storms and occasional winter ice leave lawns scarred by washouts, fallen limbs, and hail damage. Our rapid-response teams handle everything from debris removal to complete turf replacement, working directly with insurance companies when needed.\n\nWe prioritize drainage correction after flooding - many Morrisville properties near Crabtree Creek need French drain systems to prevent recurrence. For golf-ball sized hail damage common in Apex, we've developed a sand-leveling technique that seamlessly repairs pockmarked turf without full resodding. All storm repairs include disease prevention treatments since stressed grass is vulnerable to fungal outbreaks during humid recovery periods.",
+        "process": [
+          "Step 1: Safety inspection and debris documentation",
+          "Step 2: Topography mapping of water flow patterns",
+          "Step 3: Custom repair plan (spot vs. full restoration)",
+          "Step 4: Preventative fungicide/fertilizer application"
+        ],
+        "benefits": [
+          "24-hour emergency response",
+          "Insurance paperwork assistance",
+          "Erosion control measures",
+          "Disease prevention protocols"
+        ],
+        "faq": [
+          {
+            "question": "My yard flooded during the last hurricane - now what?",
+            "answer": "We test for contaminated silt deposits, then regrade to improve drainage. Many Durham properties need subsurface solutions due to clay soils."
+          },
+          {
+            "question": "Will ice-damaged grass grow back?",
+            "answer": "If crowns survived, yes - we use gentle verticutting to remove dead blades without harming new growth. Salt-damaged areas near roads need soil flushing."
+          }
+        ]
+      },
+      {
+        "slug": "new-construction-sod-installation",
+        "name": "New Construction Sod Installation",
+        "shortDescription": "Instant lawns for Raleigh's growing neighborhoods.",
+        "description": "Builder-grade soil prep often dooms new construction lawns from the start. We work directly with developers throughout Brier Creek and North Hills to install sod that lasts, starting with 12-inch subsoil decompaction before any topsoil is placed.\n\nOur premium TifTuf Bermuda sod handles both full sun and partial shade, staying green with 30% less water than standard varieties - crucial for compliance with Raleigh's summer irrigation restrictions. We warranty all installations for 90 days against thinning or die-off, including follow-up visits to adjust irrigation timing as roots establish. For eco-conscious clients, we offer native buffalograss sod that needs mowing just 2-3 times annually.",
+        "process": [
+          "Step 1: Subsoil ripping to prevent hardpan formation",
+          "Step 2: Grade verification with laser level",
+          "Step 3: Certified sod delivery from NC growers",
+          "Step 4: Precision installation with staggered seams"
+        ],
+        "benefits": [
+          "No settlement gaps between sod pieces",
+          "Prevents future drainage issues",
+          "Warranted against early failure",
+          "Irrigation system consultation included"
+        ],
+        "faq": [
+          {
+            "question": "Why does new construction sod often fail?",
+            "answer": "Builders frequently lay sod directly on compacted clay subsoil. We decompact to 18\" depth and add 4\" of amended topsoil for proper root development."
+          },
+          {
+            "question": "How soon can kids/pets use the new lawn?",
+            "answer": "Our installations are playable in 10-14 days versus the typical 3-4 week wait, thanks to root-stimulant treatments."
+          }
+        ]
+      },
+      {
+        "slug": "allergy-friendly-landscaping",
+        "name": "Allergy-Friendly Landscaping",
+        "shortDescription": "Low-pollen outdoor spaces for sensitive Triangle families.",
+        "description": "Raleigh's extended pollen seasons (especially from oak and pine) make yards miserable for allergy sufferers. We redesign landscapes using low-pollen grass alternatives like zoysia, female-only shrubs that don't produce airborne pollen, and hardscaping elements that reduce allergen traps.\n\nFor schools like those near Pullen Park, we create play areas with pollen-suppressing groundcovers instead of traditional turf. Home consultations include identifying and removing high-allergy plants - many older Cary properties have male junipers that dump pollen each spring. Maintenance plans feature frequent leaf removal (where allergens accumulate) and strategic misting systems to knock down airborne particles during peak seasons.",
+        "process": [
+          "Step 1: Allergy trigger assessment",
+          "Step 2: Pollen-producing plant removal",
+          "Step 3: Alternative species installation",
+          "Step 4: Seasonal maintenance planning"
+        ],
+        "benefits": [
+          "60-80% less airborne pollen",
+          "Reduced mold spore habitats",
+          "Low-maintenance alternatives",
+          "Child/pet friendly designs"
+        ],
+        "faq": [
+          {
+            "question": "What grass causes least allergy issues?",
+            "answer": "Fine fescues release minimal pollen compared to Bermuda or ryegrass. We also recommend mowing high to prevent flowering."
+          },
+          {
+            "question": "Can hardscaping help with allergies?",
+            "answer": "Yes - gravel paths and patio expansions reduce pollen-trapping vegetation. We use permeable systems that don't create puddles where mold grows."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mitch R.",
+        "rating": 5,
+        "service": "Clay Soil Lawn Rehabilitation",
+        "text": "After 5 years battling bare spots in our Five Points yard, Legacy's deep aeration and soil amendments finally gave us consistent grass coverage. Their team explained exactly how Raleigh's clay behaves differently than northern soils we're used to. The custom blend of tall fescue survived last summer's drought when neighbors' lawns burned out.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Leticia W.",
+        "rating": 5,
+        "service": "Shade-Tolerant Turf Installation",
+        "text": "Our downtown Raleigh townhouse courtyard was just packed dirt and moss under massive oaks. Legacy installed a stunning fine fescue/clover mix that stays green with barely any sun. They even designed curved edges to follow the brick patterns. Two years later, it still looks immaculate with minimal care.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Greg T.",
+        "rating": 5,
+        "service": "Storm Repair Services",
+        "text": "When a microburst smashed through our Brier Creek neighborhood, Legacy had crews out next day clearing fallen branches and assessing lawn damage. Their sand-leveling technique perfectly fixed hail divots without needing expensive resodding. Insurance claim paperwork was handled smoothly too.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "Sandra L.",
+        "rating": 5,
+        "service": "New Construction Sod Installation",
+        "text": "Builder left our North Hills home with pathetic thin sod over pure clay. Legacy tore it all up, fixed the subsoil, and installed premium Bermuda that's thrived through two summers. Their irrigation advice saved us hundreds in water bills. Neighbors thought we replanted everything!",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Paul J.",
+        "rating": 5,
+        "service": "Allergy-Friendly Landscaping",
+        "text": "As an allergist, I appreciated Legacy's science-based approach to reducing pollen in our Chapel Hill yard. Replacing male junipers and adding zoysia grass cut my family's medication use by half during spring. Their monthly leaf removal makes a noticeable difference too.",
+        "date": "2024-08-30"
+      },
+      {
+        "name": "Danielle K.",
+        "rating": 5,
+        "service": "Clay Soil Lawn Rehabilitation",
+        "text": "The standing water in our Cary backyard after rains was breeding mosquitoes. Legacy's combination of subsurface drainage and soil amendments transformed it into usable space. Kids can now play outside within hours of storms instead of waiting days for puddles to drain.",
+        "date": "2024-07-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Raleigh Lawn Care Experts | Legacy Lawn Care",
+        "description": "Local lawn specialists solving Piedmont clay and shade challenges. Serving Durham, Cary, Chapel Hill with science-backed turf management since 2012."
+      },
+      "about": {
+        "title": "About Our Raleigh Lawn Care Company",
+        "description": "NC State-trained turf professionals delivering customized lawn solutions for Triangle soils and climate since 2012. Family-owned and community-focused."
+      },
+      "services": {
+        "title": "Raleigh Lawn Services | Clay & Shade Specialists",
+        "description": "Comprehensive lawn care programs designed for Piedmont red clay, shady lots, and new construction challenges across the Triangle area."
+      },
+      "contact": {
+        "title": "Contact Raleigh's Lawn Care Professionals",
+        "description": "Get a free lawn evaluation from Legacy Lawn Care. Evening and weekend appointments available throughout Wake County."
+      },
+      "reviews": {
+        "title": "Raleigh Lawn Care Reviews | Real Client Stories",
+        "description": "See how we've transformed challenging Triangle lawns. 97% client satisfaction across 800+ projects since 2012."
+      },
+      "service-areas": {
+        "title": "Lawn Care Service Areas Near Raleigh NC",
+        "description": "Providing expert lawn services to Durham, Cary, Chapel Hill, Apex, Morrisville and throughout Wake County."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Durham",
+        "slug": "durham-nc",
+        "state": "NC",
+        "content": "Legacy Lawn Care provides expert lawn maintenance and landscaping services in Durham, NC, where the hot, humid summers demand resilient turf care. Our team specializes in tailored lawn treatments, including fertilization, weed control, and irrigation management, ideal for Durham's renovated industrial lofts and historic neighborhoods. We also offer seasonal cleanups and mulching to keep your outdoor spaces vibrant year-round.",
+        "localContext": "Durham blends historic charm with modern urban living, featuring a mix of renovated industrial lofts and tree-lined streets.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Chapel Hill",
+          "Morrisville"
+        ]
+      },
+      {
+        "city": "Cary",
+        "slug": "cary-nc",
+        "state": "NC",
+        "content": "In Cary, NC, Legacy Lawn Care helps homeowners maintain lush, healthy lawns in master-planned communities built from the 1980s to 2000s. Our services include precision mowing, aeration, and pest control, ensuring your lawn thrives in Cary's humid subtropical climate. We also design custom landscaping solutions to enhance curb appeal for homes in this family-friendly area.",
+        "localContext": "Cary is known for its well-planned neighborhoods, top-rated schools, and abundant green spaces.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Apex",
+          "Morrisville"
+        ]
+      },
+      {
+        "city": "Chapel Hill",
+        "slug": "chapel-hill-nc",
+        "state": "NC",
+        "content": "Legacy Lawn Care serves Chapel Hill, NC, where diverse housing near the University of North Carolina requires adaptable lawn care solutions. We offer specialized services like shade-tolerant grass care, leaf removal, and garden bed maintenance to suit the town's eclectic mix of historic and modern homes. Our team understands Chapel Hill's unique climate challenges and delivers personalized care for every property.",
+        "localContext": "Chapel Hill combines academic vibrancy with a quaint, tree-filled residential atmosphere.",
+        "nearbyAreas": [
+          "Durham",
+          "Carrboro",
+          "Hillsborough"
+        ]
+      },
+      {
+        "city": "Apex",
+        "slug": "apex-nc",
+        "state": "NC",
+        "content": "Legacy Lawn Care is proud to serve Apex, NC, a rapidly growing town with newer family developments from the 2000s to 2020s. Our services include sod installation, seasonal fertilization, and drought-resistant landscaping to keep lawns thriving in Apex's hot summers. We help homeowners maintain pristine yards that complement the town's charming, suburban appeal.",
+        "localContext": "Apex features modern subdivisions, excellent schools, and a thriving community spirit.",
+        "nearbyAreas": [
+          "Cary",
+          "Holly Springs",
+          "Fuquay-Varina"
+        ]
+      },
+      {
+        "city": "Morrisville",
+        "slug": "morrisville-nc",
+        "state": "NC",
+        "content": "In Morrisville, NC, Legacy Lawn Care provides top-tier lawn maintenance for tech professionals and families in the Research Triangle Park area. Our team specializes in high-efficiency irrigation systems, pest management, and year-round lawn care to combat Morrisville's humid climate. Whether you live in a townhome or a single-family residence, we ensure a healthy, green lawn.",
+        "localContext": "Morrisville is a tech hub with diverse housing options and a strong sense of community.",
+        "nearbyAreas": [
+          "Cary",
+          "Durham",
+          "Raleigh"
+        ]
+      },
+      {
+        "city": "Raleigh",
+        "slug": "raleigh-nc",
+        "state": "NC",
+        "content": "Legacy Lawn Care delivers premium lawn services in Raleigh, NC, catering to both historic neighborhoods and modern suburbs. Our offerings include lawn aeration, weed control, and landscape design to handle the city's hot summers and seasonal variations. Raleigh's mix of older homes and new constructions benefits from our tailored approach to lawn care.",
+        "localContext": "Raleigh combines Southern charm with urban growth, featuring diverse architectural styles.",
+        "nearbyAreas": [
+          "Cary",
+          "Durham",
+          "Garner"
+        ]
+      },
+      {
+        "city": "Holly Springs",
+        "slug": "holly-springs-nc",
+        "state": "NC",
+        "content": "Legacy Lawn Care serves Holly Springs, NC, helping residents maintain beautiful lawns in this family-oriented community. We provide services like overseeding, edging, and pest control to keep lawns healthy in the humid climate. Our team is familiar with Holly Springs' newer developments and offers customized plans for each homeowner.",
+        "localContext": "Holly Springs is a rapidly growing suburb with parks, trails, and family-friendly amenities.",
+        "nearbyAreas": [
+          "Apex",
+          "Fuquay-Varina",
+          "Cary"
+        ]
+      },
+      {
+        "city": "Wake Forest",
+        "slug": "wake-forest-nc",
+        "state": "NC",
+        "content": "Legacy Lawn Care offers comprehensive lawn services in Wake Forest, NC, where historic homes and new subdivisions coexist. Our team handles everything from leaf removal to irrigation system maintenance, ensuring your lawn stays vibrant despite the hot, humid summers. Wake Forest's mix of traditional and modern landscapes is a perfect fit for our expertise.",
+        "localContext": "Wake Forest blends small-town charm with rapid suburban growth and scenic greenery.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Rolesville",
+          "Youngsville"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "clay-soil-lawn-rehabilitation": "/images/service-clay-soil-lawn-rehabilitation.webp",
+      "new-construction-sod-installation": "/images/service-new-construction-sod-installation.webp",
+      "shade-tolerant-turf-installation": "/images/service-shade-tolerant-turf-installation.webp",
+      "storm-repair-services": "/images/service-storm-repair-services.webp",
+      "allergy-friendly-landscaping": "/images/service-allergy-friendly-landscaping.webp"
+    },
+    "servicesResponsive": {
+      "clay-soil-lawn-rehabilitation": {
+        "src": "/images/service-clay-soil-lawn-rehabilitation.webp",
+        "srcset": "/images/service-clay-soil-lawn-rehabilitation-400w.webp 400w, /images/service-clay-soil-lawn-rehabilitation-800w.webp 800w, /images/service-clay-soil-lawn-rehabilitation-1200w.webp 1200w, /images/service-clay-soil-lawn-rehabilitation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "new-construction-sod-installation": {
+        "src": "/images/service-new-construction-sod-installation.webp",
+        "srcset": "/images/service-new-construction-sod-installation-400w.webp 400w, /images/service-new-construction-sod-installation-800w.webp 800w, /images/service-new-construction-sod-installation-1200w.webp 1200w, /images/service-new-construction-sod-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "shade-tolerant-turf-installation": {
+        "src": "/images/service-shade-tolerant-turf-installation.webp",
+        "srcset": "/images/service-shade-tolerant-turf-installation-400w.webp 400w, /images/service-shade-tolerant-turf-installation-800w.webp 800w, /images/service-shade-tolerant-turf-installation-1200w.webp 1200w, /images/service-shade-tolerant-turf-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "storm-repair-services": {
+        "src": "/images/service-storm-repair-services.webp",
+        "srcset": "/images/service-storm-repair-services-400w.webp 400w, /images/service-storm-repair-services-800w.webp 800w, /images/service-storm-repair-services-1200w.webp 1200w, /images/service-storm-repair-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "allergy-friendly-landscaping": {
+        "src": "/images/service-allergy-friendly-landscaping.webp",
+        "srcset": "/images/service-allergy-friendly-landscaping-400w.webp 400w, /images/service-allergy-friendly-landscaping-800w.webp 800w, /images/service-allergy-friendly-landscaping-1200w.webp 1200w, /images/service-allergy-friendly-landscaping.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
